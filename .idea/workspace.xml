@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8827372e-ad56-4ed2-a58f-e2b6baaad084" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Y7i0Tnv7lqLjKnklReJgo3fFKA" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Exception" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.AssumeThat">
+    <configuration name="All in JUnit5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JUnit5" />
+      <useClassPathOnly />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="-ea -DENV=DEV" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AssertThrows" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JUnit5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.AssertThrows" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AssumeThat" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JUnit5" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Assumptions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Assumptions" />
+      <option name="MAIN_CLASS_NAME" value="Assumptions.AssumeThat" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea -DENV=DEV" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AssumeTrue" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="JUnit5" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Assumptions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Assumptions" />
+      <option name="MAIN_CLASS_NAME" value="Assumptions.AssumeTrue" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea -DEVENV=DEV" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="displayName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JUnit5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DisplayName.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="DisplayName" />
+      <option name="MAIN_CLASS_NAME" value="DisplayName.displayName" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.AssumeThat" />
+        <item itemvalue="JUnit.AssumeTrue" />
+        <item itemvalue="JUnit.displayName" />
+        <item itemvalue="JUnit.AssertThrows" />
+        <item itemvalue="JUnit.All in JUnit5" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8827372e-ad56-4ed2-a58f-e2b6baaad084" name="Default Changelist" comment="" />
+      <created>1582299810873</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582299810873</updated>
+      <workItem from="1582299812201" duration="15330000" />
+      <workItem from="1582569824950" duration="2567000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="557" y="151" key="#All_in_JUnit5" timestamp="1582570652758">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="557" y="151" key="#All_in_JUnit5/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582570652758" />
+    <state x="557" y="187" key="#AssumeThat" timestamp="1582571775765">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="557" y="187" key="#AssumeThat/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582571775765" />
+    <state x="557" y="187" key="#AssumeTrue" timestamp="1582571374953">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="557" y="187" key="#AssumeTrue/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582571374953" />
+    <state x="557" y="187" key="#AssumeTrue_(1)" timestamp="1582571328196">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="557" y="187" key="#AssumeTrue_(1)/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582571328196" />
+    <state x="557" y="175" key="#FirstJunit5Test_(1)" timestamp="1582303904351">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="557" y="175" key="#FirstJunit5Test_(1)/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582303904351" />
+    <state x="552" y="178" key="#Project_Structure" timestamp="1582303497327">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" key="#Project_Structure/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582303497327" />
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582570302854">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582570302854" />
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1582304805256">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582304805256" />
+    <state x="690" y="296" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1582565055119">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="296" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582565055119" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1582572010508">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582572010508" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1582572010508">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582572010508" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1582572010508">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582572010508" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1582572010508">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582572010508" />
+    <state x="664" y="413" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1582305422803">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="664" y="413" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582305422803" />
+  </component>
+</project>
