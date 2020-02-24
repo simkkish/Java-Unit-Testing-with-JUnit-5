@@ -1,4 +1,4 @@
-package Calc;
+package example;
 
 public class Calculator {
 public boolean isEvenNumber(int number){

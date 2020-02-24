@@ -1,6 +1,6 @@
 package test.paramaterizedTest.valueSource;
 
-import Calc.Calculator;
+import example.Calculator;
 import org.junit.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import static org.junit.jupiter.api.Assertions.assertTrue;
