@@ -1,4 +1,4 @@
-package Assumptions;
+package assumptions;
 
 import org.junit.jupiter.api.Test;
 

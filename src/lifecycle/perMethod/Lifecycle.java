@@ -1,4 +1,4 @@
-package lifecycle;
+package lifecycle.perMethod;
 
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.*;

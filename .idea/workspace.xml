@@ -2,9 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8827372e-ad56-4ed2-a58f-e2b6baaad084" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lifecycle/Lifecycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lifecycle/perClass/Lifecycle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JUnit5/Assumptions/AssumeThat.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUnit5/Assumptions/AssumeThat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JUnit5/Assumptions/AssumeTrue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUnit5/Assumptions/AssumeTrue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JUnit5/DisplayName/displayName.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUnit5/DisplayName/displayName.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JUnit5/lifecycle/Lifecycle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assumptions/AssumeThat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/assumptions/AssumeThat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assumptions/AssumeTrue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/assumptions/AssumeTrue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DisplayName/displayName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/displayName/displayName.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lifecycle/Lifecycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lifecycle/perMethod/Lifecycle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,20 +55,7 @@
       <recent name="Exception" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Lifecycle">
-    <configuration name="All in JUnit5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JUnit5" />
-      <useClassPathOnly />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <option name="VM_PARAMETERS" value="-ea -DENV=DEV" />
-      <option name="PARAMETERS" value="" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.Lifecycle (1)">
     <configuration name="AssertThrows" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JUnit5" />
       <extension name="coverage">
@@ -82,12 +76,12 @@
       <useClassPathOnly />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Assumptions.*" />
+          <option name="PATTERN" value="assumptions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Assumptions" />
-      <option name="MAIN_CLASS_NAME" value="Assumptions.AssumeThat" />
+      <option name="PACKAGE_NAME" value="assumptions" />
+      <option name="MAIN_CLASS_NAME" value="assumptions.AssumeThat" />
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea -DENV=DEV" />
@@ -101,12 +95,12 @@
       <useClassPathOnly />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Assumptions.*" />
+          <option name="PATTERN" value="assumptions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Assumptions" />
-      <option name="MAIN_CLASS_NAME" value="Assumptions.AssumeTrue" />
+      <option name="PACKAGE_NAME" value="assumptions" />
+      <option name="MAIN_CLASS_NAME" value="assumptions.AssumeTrue" />
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea -DEVENV=DEV" />
@@ -115,16 +109,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Lifecycle (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JUnit5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lifecycle.perClass.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lifecycle.perClass" />
+      <option name="MAIN_CLASS_NAME" value="lifecycle.perClass.Lifecycle" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Lifecycle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JUnit5" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lifecycle.*" />
+          <option name="PATTERN" value="lifecycle.perMethod.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="lifecycle" />
-      <option name="MAIN_CLASS_NAME" value="lifecycle.Lifecycle" />
+      <option name="PACKAGE_NAME" value="lifecycle.perMethod" />
+      <option name="MAIN_CLASS_NAME" value="lifecycle.perMethod.Lifecycle" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -134,12 +143,12 @@
       <module name="JUnit5" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DisplayName.*" />
+          <option name="PATTERN" value="displayName.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="DisplayName" />
-      <option name="MAIN_CLASS_NAME" value="DisplayName.displayName" />
+      <option name="PACKAGE_NAME" value="displayName" />
+      <option name="MAIN_CLASS_NAME" value="displayName.displayName" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -147,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Lifecycle (1)" />
         <item itemvalue="JUnit.Lifecycle" />
         <item itemvalue="JUnit.AssumeThat" />
         <item itemvalue="JUnit.AssumeTrue" />
         <item itemvalue="JUnit.displayName" />
-        <item itemvalue="JUnit.AssertThrows" />
       </list>
     </recent_temporary>
   </component>
@@ -166,7 +175,7 @@
       <option name="presentableId" value="Default" />
       <updated>1582299810873</updated>
       <workItem from="1582299812201" duration="15330000" />
-      <workItem from="1582569824950" duration="5951000" />
+      <workItem from="1582569824950" duration="6892000" />
     </task>
     <servers />
   </component>
@@ -210,22 +219,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="296" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582565055119" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1582581900070">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1582583634198">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582581900070" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1582581900070">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582583634198" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1582583634198">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582581900070" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1582581900070">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582583634198" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1582583634198">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582581900070" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1582581900070">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582583634198" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1582583634198">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582581900070" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582583634198" />
     <state x="664" y="413" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1582305422803">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
