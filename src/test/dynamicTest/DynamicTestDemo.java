@@ -5,10 +5,8 @@ import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.DynamicTest;
 import org.junit.jupiter.api.TestFactory;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collection;
-import java.util.List;
+import java.util.*;
+import java.util.stream.Stream;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -23,7 +21,7 @@ public class DynamicTestDemo {
     @TestFactory
     @Disabled
     public String testReverseWithString(){
-        return "Dynamic Test for reverse method";
+        return "dynamic Test ";
     }
     @TestFactory
     public Collection<DynamicTest> dynamicTestsFromCollection(){
@@ -38,6 +36,7 @@ public class DynamicTestDemo {
             DynamicTest dynamicTest=DynamicTest.dynamicTest("Dynamic Test for reverse() : input - "+input,()->{
                 assertEquals(output,stringHelper.reverse(input));
             });
+            dynamicTests.add(dynamicTest);
         }
 
         return dynamicTests;
@@ -63,8 +62,63 @@ public class DynamicTestDemo {
             DynamicTest dynamicTest=DynamicTest.dynamicTest("Dynamic Test for reverse() : input - "+input,()->{
                 assertEquals(output,stringHelper.reverse(input));
             });
+            dynamicTests.add(dynamicTest);
         }
 
         return dynamicTests;
+    }
+    @TestFactory
+    public Iterator<DynamicTest> dynamicTestsFromIterator(){
+        List<String> inputList=createInputList();
+        List<String> outputList=createOutputList();
+
+        Collection<DynamicTest> dynamicTests=new ArrayList<>();
+
+        for(int i=0;i<inputList.size();i++){
+            String input=inputList.get(i);
+            String output=outputList.get(i);
+            DynamicTest dynamicTest=DynamicTest.dynamicTest("Dynamic Test for reverse() : input - "+input,()->{
+                assertEquals(output,stringHelper.reverse(input));
+            });
+            dynamicTests.add(dynamicTest);
+        }
+
+        return dynamicTests.iterator();
+    }
+    @TestFactory
+    public Stream<DynamicTest> dynamicTestsFromStreams(){
+        List<String> inputList=createInputList();
+        List<String> outputList=createOutputList();
+
+        Collection<DynamicTest> dynamicTests=new ArrayList<>();
+
+        for(int i=0;i<inputList.size();i++){
+            String input=inputList.get(i);
+            String output=outputList.get(i);
+            DynamicTest dynamicTest=DynamicTest.dynamicTest("Dynamic Test for reverse() : input - "+input,()->{
+                assertEquals(output,stringHelper.reverse(input));
+            });
+            dynamicTests.add(dynamicTest);
+        }
+
+        return dynamicTests.stream();
+    }
+    @TestFactory
+    public DynamicTest[] dynamicTestsFromArray(){
+        List<String> inputList=createInputList();
+        List<String> outputList=createOutputList();
+
+        Collection<DynamicTest> dynamicTests=new ArrayList<>();
+
+        for(int i=0;i<inputList.size();i++){
+            String input=inputList.get(i);
+            String output=outputList.get(i);
+            DynamicTest dynamicTest=DynamicTest.dynamicTest("Dynamic Test for reverse() : input - "+input,()->{
+                assertEquals(output,stringHelper.reverse(input));
+            });
+            dynamicTests.add(dynamicTest);
+        }
+
+        return dynamicTests.toArray(new DynamicTest[dynamicTests.size()]);
     }
 }
