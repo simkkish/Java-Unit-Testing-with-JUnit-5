@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8827372e-ad56-4ed2-a58f-e2b6baaad084" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/repeatedTest/RepeatedTestDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/conditional/os/OperatingSystemConditions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JUnit5/test/repeatedTest/RepeatedTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUnit5/test/repeatedTest/RepeatedTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/repeatedTest/RepeatedTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +51,7 @@
       <recent name="Exception" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.RepeatedTestDemo">
+  <component name="RunManager" selected="JUnit.OperatingSystemConditions">
     <configuration name="All in JUnit5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JUnit5" />
       <option name="PACKAGE_NAME" value="" />
@@ -81,21 +79,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EnumSource" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JUnit5" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.paramaterizedTest.enumSource.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test.paramaterizedTest.enumSource" />
-      <option name="MAIN_CLASS_NAME" value="test.paramaterizedTest.enumSource.EnumSource" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MethodSource" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JUnit5" />
       <extension name="coverage">
@@ -106,6 +89,21 @@
       </extension>
       <option name="PACKAGE_NAME" value="test.paramaterizedTest.methodSource" />
       <option name="MAIN_CLASS_NAME" value="test.paramaterizedTest.methodSource.MethodSource" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OperatingSystemConditions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JUnit5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.conditional.os.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.conditional.os" />
+      <option name="MAIN_CLASS_NAME" value="test.conditional.os.OperatingSystemConditions" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -143,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.OperatingSystemConditions" />
+        <item itemvalue="JUnit.All in JUnit5" />
         <item itemvalue="JUnit.RepeatedTestDemo" />
         <item itemvalue="JUnit.RepeatedTest" />
         <item itemvalue="JUnit.MethodSource" />
-        <item itemvalue="JUnit.All in JUnit5" />
-        <item itemvalue="JUnit.EnumSource" />
       </list>
     </recent_temporary>
   </component>
@@ -162,7 +160,7 @@
       <option name="presentableId" value="Default" />
       <updated>1582299810873</updated>
       <workItem from="1582299812201" duration="15330000" />
-      <workItem from="1582569824950" duration="17590000" />
+      <workItem from="1582569824950" duration="18528000" />
     </task>
     <servers />
   </component>
@@ -206,22 +204,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="296" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582565055119" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1582647225068">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1582648100134">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582647225068" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1582647225068">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582648100134" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1582648100134">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582647225068" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1582647225068">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582648100134" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1582648100133">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582647225068" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1582647225068">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582648100133" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1582648100134">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582647225068" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582648100134" />
     <state x="664" y="413" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1582305422803">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
