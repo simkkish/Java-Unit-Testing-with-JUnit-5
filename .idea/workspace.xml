@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8827372e-ad56-4ed2-a58f-e2b6baaad084" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/repeatedTest/RepeatedTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/paramaterizedTest/methodSource/MethodSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/paramaterizedTest/methodSource/MethodSource.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,7 +160,7 @@
       <option name="presentableId" value="Default" />
       <updated>1582299810873</updated>
       <workItem from="1582299812201" duration="15330000" />
-      <workItem from="1582569824950" duration="16286000" />
+      <workItem from="1582569824950" duration="17051000" />
     </task>
     <servers />
   </component>
