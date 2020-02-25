@@ -50,4 +50,21 @@ public class DynamicTestDemo {
     private List<String> createInputList() {
         return Arrays.asList("race","mom","dad");
     }
+    @TestFactory
+    public Iterable<DynamicTest> dynamicTestsFromIterable(){
+        List<String> inputList=createInputList();
+        List<String> outputList=createOutputList();
+
+        Collection<DynamicTest> dynamicTests=new ArrayList<>();
+
+        for(int i=0;i<inputList.size();i++){
+            String input=inputList.get(i);
+            String output=outputList.get(i);
+            DynamicTest dynamicTest=DynamicTest.dynamicTest("Dynamic Test for reverse() : input - "+input,()->{
+                assertEquals(output,stringHelper.reverse(input));
+            });
+        }
+
+        return dynamicTests;
+    }
 }
